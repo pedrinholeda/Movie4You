@@ -16,6 +16,7 @@
 		E4BA1C63265CA18000487968 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA1C62265CA18000487968 /* Movies.swift */; };
 		E4BA1C66265CA30800487968 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA1C65265CA30800487968 /* MovieService.swift */; };
 		E4BA1C69265CA7BD00487968 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA1C68265CA7BD00487968 /* MovieStore.swift */; };
+		E4BA1C6B265DF39B00487968 /* Ultils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BA1C6A265DF39B00487968 /* Ultils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E4BA1C62265CA18000487968 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		E4BA1C65265CA30800487968 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		E4BA1C68265CA7BD00487968 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		E4BA1C6A265DF39B00487968 /* Ultils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E4BA1C61265CA14000487968 /* Models */,
 				E4BA1C35265CA06900487968 /* MovieAppApp.swift */,
 				E4BA1C37265CA06900487968 /* ContentView.swift */,
+				E4BA1C6A265DF39B00487968 /* Ultils.swift */,
 				E4BA1C39265CA07900487968 /* Assets.xcassets */,
 				E4BA1C3E265CA07900487968 /* Info.plist */,
 				E4BA1C3B265CA07900487968 /* Preview Content */,
@@ -288,6 +291,7 @@
 				E4BA1C36265CA06900487968 /* MovieAppApp.swift in Sources */,
 				E4BA1C66265CA30800487968 /* MovieService.swift in Sources */,
 				E4BA1C63265CA18000487968 /* Movies.swift in Sources */,
+				E4BA1C6B265DF39B00487968 /* Ultils.swift in Sources */,
 				E4BA1C69265CA7BD00487968 /* MovieStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
