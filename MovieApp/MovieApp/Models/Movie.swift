@@ -1,5 +1,5 @@
 //
-//  Movies.swift
+//  Movie.swift
 //  MovieApp
 //
 //  Created by Pedro Henrique on 25/05/21.
@@ -21,6 +21,10 @@ struct Movie: Decodable {
     let voteAverage: Double
     let voteCount: Int
     let runtime: Int?
+    
+    var backdropURL: URL{
+        return URL(string: "https://image.tmdb.org/t/p/w500\(backdropPath ?? "")")!
+    }
     
 }
 

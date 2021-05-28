@@ -22,14 +22,32 @@ class MovieStore: MovieService {
             completion(.failure(.invalidEndpoint))
             return
         }
+        self.loadURLandDecode(url: url, completion: completion)
         
     }
     
     func fetchMovie(id: Int, completion: @escaping (Result<Movie, MovieError>) -> ()) {
+        guard let url = URL(string: "\(baseAPIURL)/movie/\(id)") else {
+            completion(.failure(.invalidEndpoint))
+            return
+        }
+        self.loadURLandDecode(url: url, params: [
+            "append_to_response": "videos, credits"
+        ], completion: completion)
         
     }
     
     func searchMovie(query: String, completion: @escaping (Result<MovieResponse, MovieError>) -> ()) {
+        guard let url = URL(string: "\(baseAPIURL)/search/movie") else {
+            completion(.failure(.invalidEndpoint))
+            return
+        }
+        self.loadURLandDecode(url: url, params: [
+            "Language": "en-US",
+            "include_adult": "false",
+            "region": "US",
+            "query": query
+        ], completion: completion)
         
     }
     
