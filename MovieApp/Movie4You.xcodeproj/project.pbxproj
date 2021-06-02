@@ -70,16 +70,16 @@
 		E47E33F12660B0820059CF6D /* MovieSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchView.swift; sourceTree = "<group>"; };
 		E47E33F32660B0F00059CF6D /* MovieSearchState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchState.swift; sourceTree = "<group>"; };
 		E47E33F52660B1110059CF6D /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
-		E4BA1C32265CA06900487968 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BA1C32265CA06900487968 /* Movie4You.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie4You.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BA1C35265CA06900487968 /* MovieAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppApp.swift; sourceTree = "<group>"; };
 		E4BA1C37265CA06900487968 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4BA1C39265CA07900487968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BA1C3C265CA07900487968 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4BA1C3E265CA07900487968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4BA1C43265CA07B00487968 /* MovieAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BA1C43265CA07B00487968 /* Movie4YouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movie4YouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BA1C47265CA07B00487968 /* MovieAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppTests.swift; sourceTree = "<group>"; };
 		E4BA1C49265CA07B00487968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4BA1C4E265CA07B00487968 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BA1C4E265CA07B00487968 /* Movie4YouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Movie4YouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BA1C52265CA07B00487968 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		E4BA1C54265CA07B00487968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BA1C62265CA18000487968 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 		E4BA1C33265CA06900487968 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4BA1C32265CA06900487968 /* MovieApp.app */,
-				E4BA1C43265CA07B00487968 /* MovieAppTests.xctest */,
-				E4BA1C4E265CA07B00487968 /* MovieAppUITests.xctest */,
+				E4BA1C32265CA06900487968 /* Movie4You.app */,
+				E4BA1C43265CA07B00487968 /* Movie4YouTests.xctest */,
+				E4BA1C4E265CA07B00487968 /* Movie4YouUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -250,9 +250,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4BA1C31265CA06900487968 /* MovieApp */ = {
+		E4BA1C31265CA06900487968 /* Movie4You */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4BA1C57265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieApp" */;
+			buildConfigurationList = E4BA1C57265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4You" */;
 			buildPhases = (
 				E4BA1C2E265CA06900487968 /* Sources */,
 				E4BA1C2F265CA06900487968 /* Frameworks */,
@@ -262,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = MovieApp;
+			name = Movie4You;
 			productName = MovieApp;
-			productReference = E4BA1C32265CA06900487968 /* MovieApp.app */;
+			productReference = E4BA1C32265CA06900487968 /* Movie4You.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4BA1C42265CA07B00487968 /* MovieAppTests */ = {
+		E4BA1C42265CA07B00487968 /* Movie4YouTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4BA1C5A265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieAppTests" */;
+			buildConfigurationList = E4BA1C5A265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4YouTests" */;
 			buildPhases = (
 				E4BA1C3F265CA07B00487968 /* Sources */,
 				E4BA1C40265CA07B00487968 /* Frameworks */,
@@ -280,14 +280,14 @@
 			dependencies = (
 				E4BA1C45265CA07B00487968 /* PBXTargetDependency */,
 			);
-			name = MovieAppTests;
+			name = Movie4YouTests;
 			productName = MovieAppTests;
-			productReference = E4BA1C43265CA07B00487968 /* MovieAppTests.xctest */;
+			productReference = E4BA1C43265CA07B00487968 /* Movie4YouTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E4BA1C4D265CA07B00487968 /* MovieAppUITests */ = {
+		E4BA1C4D265CA07B00487968 /* Movie4YouUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4BA1C5D265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieAppUITests" */;
+			buildConfigurationList = E4BA1C5D265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4YouUITests" */;
 			buildPhases = (
 				E4BA1C4A265CA07B00487968 /* Sources */,
 				E4BA1C4B265CA07B00487968 /* Frameworks */,
@@ -298,9 +298,9 @@
 			dependencies = (
 				E4BA1C50265CA07B00487968 /* PBXTargetDependency */,
 			);
-			name = MovieAppUITests;
+			name = Movie4YouUITests;
 			productName = MovieAppUITests;
-			productReference = E4BA1C4E265CA07B00487968 /* MovieAppUITests.xctest */;
+			productReference = E4BA1C4E265CA07B00487968 /* Movie4YouUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4BA1C2D265CA06900487968 /* Build configuration list for PBXProject "MovieApp" */;
+			buildConfigurationList = E4BA1C2D265CA06900487968 /* Build configuration list for PBXProject "Movie4You" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -338,9 +338,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4BA1C31265CA06900487968 /* MovieApp */,
-				E4BA1C42265CA07B00487968 /* MovieAppTests */,
-				E4BA1C4D265CA07B00487968 /* MovieAppUITests */,
+				E4BA1C31265CA06900487968 /* Movie4You */,
+				E4BA1C42265CA07B00487968 /* Movie4YouTests */,
+				E4BA1C4D265CA07B00487968 /* Movie4YouUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -425,12 +425,12 @@
 /* Begin PBXTargetDependency section */
 		E4BA1C45265CA07B00487968 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4BA1C31265CA06900487968 /* MovieApp */;
+			target = E4BA1C31265CA06900487968 /* Movie4You */;
 			targetProxy = E4BA1C44265CA07B00487968 /* PBXContainerItemProxy */;
 		};
 		E4BA1C50265CA07B00487968 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4BA1C31265CA06900487968 /* MovieApp */;
+			target = E4BA1C31265CA06900487968 /* Movie4You */;
 			targetProxy = E4BA1C4F265CA07B00487968 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -614,7 +614,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApp.app/MovieApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie4You.app/Movie4You";
 			};
 			name = Debug;
 		};
@@ -636,7 +636,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovieApp.app/MovieApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Movie4You.app/Movie4You";
 			};
 			name = Release;
 		};
@@ -683,7 +683,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4BA1C2D265CA06900487968 /* Build configuration list for PBXProject "MovieApp" */ = {
+		E4BA1C2D265CA06900487968 /* Build configuration list for PBXProject "Movie4You" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4BA1C55265CA07B00487968 /* Debug */,
@@ -692,7 +692,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4BA1C57265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieApp" */ = {
+		E4BA1C57265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4You" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4BA1C58265CA07B00487968 /* Debug */,
@@ -701,7 +701,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4BA1C5A265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieAppTests" */ = {
+		E4BA1C5A265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4YouTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4BA1C5B265CA07B00487968 /* Debug */,
@@ -710,7 +710,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4BA1C5D265CA07B00487968 /* Build configuration list for PBXNativeTarget "MovieAppUITests" */ = {
+		E4BA1C5D265CA07B00487968 /* Build configuration list for PBXNativeTarget "Movie4YouUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4BA1C5E265CA07B00487968 /* Debug */,
