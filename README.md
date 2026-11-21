@@ -41,3 +41,7 @@ Consiste em um app que é basicamente um catalogo de filmes que consome a api do
 
 ##  📩 Avisos
 *O Projeto contem a minha chave de api, caso queira executar o projeto com sua propria chave da api, basta ir no site do  [TMDB](https://www.themoviedb.org/), fazer o cadastro e gerar sua propria chave, em seguida vá no projeto e adicione a sua chave como valor da variavel "apiKey" que fica dentro do arquivo MovieStore.swift.*
+
+## Licença
+
+[MIT](LICENSE)
